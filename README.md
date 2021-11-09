@@ -1,1 +1,4 @@
 # Pitches 
+
+## AURTHOR 
+Simon Kairu
