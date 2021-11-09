@@ -50,3 +50,11 @@ To get the code..
   python3.8 manage.py test
   ```
 Open the application on your browser `http://127.0.0.1:5000/`.
+
+## Technologies used 
+1.python3.8 <br>
+2.Heroku <br>
+3.Bootstrap <br>
+4.HTML <br>
+5.css <br>
+6.Flask
