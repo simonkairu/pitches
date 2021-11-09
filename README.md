@@ -69,3 +69,4 @@ Incase of any details on how the site can be improved email:
 
 ## Licence 
 [![Licence:MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](Licence) <br>
+Copyright (c) 2021 **simon kairu**
