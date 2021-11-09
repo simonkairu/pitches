@@ -62,3 +62,7 @@ Open the application on your browser `http://127.0.0.1:5000/`.
 ## Known Bugs 
 No known bugs <br>
 Report bugs:|simonkairu14@gmail.com
+
+## Support & Contact details 
+Incase of any details on how the site can be improved email:
+|simonkairu14@gmail.com
