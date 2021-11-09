@@ -1,1 +1,1 @@
-SECRET_KEY='123'
+SECRET_KEY='wvkwcw6nflmYWLrdlLUVcg'
