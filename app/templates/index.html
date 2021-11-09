@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 lh-lg text-center">
+            <h1 class="">PITCHES</h1>
+            <p>This is a Python-Flask application that lets you make a one-minute pitch.<br> You have only one seconds to make an impression on someone.<br> One minute has the power to make or break you.<br> Users will submit one-minute pitches,<br> and other users will vote on them and send feedback in the form of comments.</p>
+            
+            <a href="{{url_for('auth.register')}}" class="btn btn-outline-dark mt-4">Sign Up</a>
+        </div>
+        
+    </div>
+
+    <!-- Services -->
+    <div class="row mt-5 text-center">
+        <hr>
+        <div class="col-md-12 text-center">
+            <h1 class="text-dark">ACTIVITIES</h1>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title"> Connect with other People</h5>
+                    <p class="card-text">
+                        If you dont have an account sign in and see other peoples posts ,you can also communicate with them
+                    </p>
+                    <a href="{{url_for('main.pitches')}}" class="btn btn-outline-dark">View Pitches</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title">We give you a chance to express your views in the society</h5>
+                    <p class="card-text"> You just need to create a pitch,post it and the better the pitch the more likes it gets.
+                       
+                    </p>
+                    <a href="{{url_for('main.addpitches')}}" class="btn btn-outline-dark">Create a pitch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card h-100" style="width: 18rem;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Get good in communication skills </h5>
+                    <p class="card-text">
+                        As you post your pitch  you also get to see other peoples pitches  
+                    </p>
+                    <a href="{{url_for('auth.login')}}" class="btn btn-outline-dark">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Footer -->
+<div class="row mt-6 container-fluid">
+    <hr>
+    <div class="col-md-12">
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="
+                "
+                 role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color:black;">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">simonkairu</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+{% endblock %}

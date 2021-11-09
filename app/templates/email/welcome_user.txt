@@ -1,0 +1,4 @@
+Hello {{user.username}}
+Welcome to Pitches
+We want to thank you for creating an account 
+Have fun creating your own pitches 
