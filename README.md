@@ -58,3 +58,7 @@ Open the application on your browser `http://127.0.0.1:5000/`.
 4.HTML <br>
 5.css <br>
 6.Flask
+
+## Known Bugs 
+No known bugs <br>
+Report bugs:|simonkairu14@gmail.com
